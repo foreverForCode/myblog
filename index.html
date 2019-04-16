@@ -62,6 +62,50 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-js对接路径和相对路径" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/myblog/2019/04/16/js对接路径和相对路径/" class="article-date">
+  <time datetime="2019-04-16T08:49:02.000Z" itemprop="datePublished">2019-04-16</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/myblog/2019/04/16/js对接路径和相对路径/">js对接路径和相对路径</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p> 由于在实际工作中，经常遇到页面跳转问题, 有时候不太清楚绝对路径和相对路径的区别，导致页面的，导致页面跳转的层级不对，而导致页面路径错误</p>
+<h4 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"> //  假设你的这个html文件的路径是www.example.com/path/to/html/a.html，</span><br><span class="line"> </span><br><span class="line"> &lt;script src=&quot;/js/ibanner.js&quot;&gt;&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">实际请求的页面路径是 www.example.com/js/ibanner.js，</span><br><span class="line"></span><br><span class="line">&lt;script src=&quot;js/ibanner.js&quot;&gt;&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">实际请求的页面路径是 www.example.com/path/to/html/js/ibanner.js</span><br></pre></td></tr></table></figure>
+<h4 id="含义"><a href="#含义" class="headerlink" title="含义"></a>含义</h4><p>相对路径：   相对于当前页面位置的路径。./ 是表示当前位置， ../ 是代表上一级位置  </p>
+<p>绝对路径 :    绝对路径是相对于根目录，一开始加/ 就是代表根目录， 静态文件的根目录。</p>
+<h4 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h4><p><strong>相对路径</strong><br>对于文件路径已经很确定，文件的路径一开始就固定的</p>
+<p><strong>绝对路径</strong><br>不清楚文件路径，那么只能自己从根目录去查</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://foreverforcode.github.io/myblog/2019/04/16/js对接路径和相对路径/" data-id="cjujjw8hi0000joak12lqegcc" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/myblog/tags/绝对路径和相对路径/">绝对路径和相对路径</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-today" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/myblog/2019/03/28/today/" class="article-date">
@@ -91,7 +135,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://foreverforcode.github.io/myblog/2019/03/28/today/" data-id="cjts6bd3n0001e8ak8aq273eg" class="article-share-link">Share</a>
+      <a data-url="https://foreverforcode.github.io/myblog/2019/03/28/today/" data-id="cjujjw8ht0003joakw63phjtg" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/myblog/tags/如何部署/">如何部署</a></li></ul>
@@ -138,7 +182,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://foreverforcode.github.io/myblog/2019/03/28/hello-world/" data-id="cjts6bd3h0000e8akskiahcdx" class="article-share-link">Share</a>
+      <a data-url="https://foreverforcode.github.io/myblog/2019/03/28/hello-world/" data-id="cjujjw8ho0001joakwuqvrz0h" class="article-share-link">Share</a>
       
       
     </footer>
@@ -161,7 +205,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/myblog/tags/如何部署/">如何部署</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/myblog/tags/如何部署/">如何部署</a></li><li class="tag-list-item"><a class="tag-list-link" href="/myblog/tags/绝对路径和相对路径/">绝对路径和相对路径</a></li></ul>
     </div>
   </div>
 
@@ -171,7 +215,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/myblog/tags/如何部署/" style="font-size: 10px;">如何部署</a>
+      <a href="/myblog/tags/如何部署/" style="font-size: 10px;">如何部署</a> <a href="/myblog/tags/绝对路径和相对路径/" style="font-size: 10px;">绝对路径和相对路径</a>
     </div>
   </div>
 
@@ -180,7 +224,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/myblog/archives/2019/03/">March 2019</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/myblog/archives/2019/04/">April 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/myblog/archives/2019/03/">March 2019</a></li></ul>
     </div>
   </div>
 
@@ -191,6 +235,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/myblog/2019/04/16/js对接路径和相对路径/">js对接路径和相对路径</a>
+          </li>
         
           <li>
             <a href="/myblog/2019/03/28/today/">today</a>

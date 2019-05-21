@@ -62,6 +62,51 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-layui-如何自适应table高度" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/myblog/2019/05/21/layui-如何自适应table高度/" class="article-date">
+  <time datetime="2019-05-21T06:45:22.000Z" itemprop="datePublished">2019-05-21</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/myblog/2019/05/21/layui-如何自适应table高度/">layui-如何自适应table高度</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="table-高度如何自适应"><a href="#table-高度如何自适应" class="headerlink" title="table 高度如何自适应"></a>table 高度如何自适应</h2><h3 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h3><p>想要实现table的高度自适应，需要固定的html结构，这样才能计算合适的高度</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"mb10"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">form</span> <span class="attr">class</span>=<span class="string">"layui-form "</span> <span class="attr">id</span>=<span class="string">"department"</span>&gt;</span></span><br><span class="line">       </span><br><span class="line">    <span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">table</span> <span class="attr">id</span>=<span class="string">"table"</span> <span class="attr">lay-filter</span>=<span class="string">"table"</span>&gt;</span><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>html细节说明  </p>
+<p><form id="department">定义id可以获取除了table的其余高度</form></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">myTable = onion.table(&#123;</span><br><span class="line">        formId:<span class="string">'#department'</span>,</span><br><span class="line">    &#125;);</span><br></pre></td></tr></table></figure>
+<p>javascript 细节说明  </p>
+<p>formId指的是form标签的ID</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://foreverforcode.github.io/myblog/2019/05/21/layui-如何自适应table高度/" data-id="cjvxg2p530005h4akh8nkdmpv" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/myblog/tags/layui/">layui</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-js对接路径和相对路径" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/myblog/2019/04/16/js对接路径和相对路径/" class="article-date">
@@ -94,7 +139,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://foreverforcode.github.io/myblog/2019/04/16/js对接路径和相对路径/" data-id="cjujk6hip0001u0ak0x5pq1rs" class="article-share-link">Share</a>
+      <a data-url="https://foreverforcode.github.io/myblog/2019/04/16/js对接路径和相对路径/" data-id="cjvxg2p4x0002h4akynr071b2" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/myblog/tags/绝对路径和相对路径/">绝对路径和相对路径</a></li></ul>
@@ -140,7 +185,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://foreverforcode.github.io/myblog/2019/03/28/today/" data-id="cjujk6hj30004u0ak64tjwy81" class="article-share-link">Share</a>
+      <a data-url="https://foreverforcode.github.io/myblog/2019/03/28/today/" data-id="cjvxg2p4z0003h4akt2xocwe7" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/myblog/tags/如何部署/">如何部署</a></li></ul>
@@ -187,7 +232,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://foreverforcode.github.io/myblog/2019/03/28/hello-world/" data-id="cjujk6hij0000u0akmhivrzcv" class="article-share-link">Share</a>
+      <a data-url="https://foreverforcode.github.io/myblog/2019/03/28/hello-world/" data-id="cjvxg2p4r0000h4ak8pk65pui" class="article-share-link">Share</a>
       
       
     </footer>
@@ -210,7 +255,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/myblog/tags/如何部署/">如何部署</a></li><li class="tag-list-item"><a class="tag-list-link" href="/myblog/tags/绝对路径和相对路径/">绝对路径和相对路径</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/myblog/tags/layui/">layui</a></li><li class="tag-list-item"><a class="tag-list-link" href="/myblog/tags/如何部署/">如何部署</a></li><li class="tag-list-item"><a class="tag-list-link" href="/myblog/tags/绝对路径和相对路径/">绝对路径和相对路径</a></li></ul>
     </div>
   </div>
 
@@ -220,7 +265,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/myblog/tags/如何部署/" style="font-size: 10px;">如何部署</a> <a href="/myblog/tags/绝对路径和相对路径/" style="font-size: 10px;">绝对路径和相对路径</a>
+      <a href="/myblog/tags/layui/" style="font-size: 10px;">layui</a> <a href="/myblog/tags/如何部署/" style="font-size: 10px;">如何部署</a> <a href="/myblog/tags/绝对路径和相对路径/" style="font-size: 10px;">绝对路径和相对路径</a>
     </div>
   </div>
 
@@ -229,7 +274,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/myblog/archives/2019/04/">April 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/myblog/archives/2019/03/">March 2019</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/myblog/archives/2019/05/">May 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/myblog/archives/2019/04/">April 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/myblog/archives/2019/03/">March 2019</a></li></ul>
     </div>
   </div>
 
@@ -240,6 +285,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/myblog/2019/05/21/layui-如何自适应table高度/">layui-如何自适应table高度</a>
+          </li>
         
           <li>
             <a href="/myblog/2019/04/16/js对接路径和相对路径/">js对接路径和相对路径</a>
